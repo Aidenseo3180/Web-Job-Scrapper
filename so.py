@@ -11,7 +11,7 @@ def get_last_page():
 
     last_pages = pages[-2].get_text(strip=True)
     
-    return int(last_pages)  #get_text는 string, int로 변환해줌
+    return int(last_pages) 
 
 
 def extract_jobs(last_page):
